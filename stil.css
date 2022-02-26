@@ -1,0 +1,110 @@
+html, body {
+	
+margin:auto;
+
+}
+
+
+
+body {
+	
+margin: auto;
+text-align: center;
+background:hsl(0, 0%, 95%);
+
+}
+
+.container {
+
+margin: auto;
+margin-top:120px;
+display: flex;
+text-align: center;
+height: 300px;
+width: 660px;
+
+
+
+}
+
+.one, .two, .three {
+
+	height:300px;
+	width: 220px;
+	float: left;
+	padding: 40px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: left;
+
+}
+
+.one {
+
+	background-color:hsl(31, 77%, 52%);
+	border-radius: 10px 0px 0px 10px;
+}
+
+.two {
+
+	background-color:hsl(184, 100%, 22%);
+	
+}
+
+.three {
+
+	background-color:hsl(179, 100%, 13%);
+	border-radius: 0px 10px 10px 0px;
+}
+
+h1 {
+
+text-transform: uppercase;
+font-family: 'Big Shoulders Display', cursive;
+
+/*font-family: 'Lexend Deca', sans-serif;*/
+
+}
+
+p { 
+
+font-size: 13px;
+
+ }
+
+ button {
+
+
+background-color: white;
+padding: 10px;
+border-radius: 20px;
+border: none;
+width: 100px;
+font-weight: bold;
+font-size: 11px;
+
+ }
+
+ button:hover {
+
+ 	cursor: pointer;
+
+ }
+
+.btn1 {
+
+color:hsl(31, 77%, 52%); 
+
+}
+
+.btn2 {
+
+color:hsl(184, 100%, 22%);
+
+}
+
+.btn3 {
+
+color:hsl(179, 100%, 13%); 
+
+}
